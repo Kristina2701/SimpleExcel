@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<GRID>
+    <CELL>
+        <Column>A</Column>
+        <Row>2</Row>
+        <Expression>Radius:</Expression>
+        <Format>label</Format>
+    </CELL>
+    <CELL>
+        <Column>B</Column>
+        <Row>2</Row>
+        <Expression>2</Expression>
+        <Format>numeric</Format>
+    </CELL>
+    <CELL>
+        <Column>A</Column>
+        <Row>3</Row>
+        <Expression>Pi:</Expression>
+        <Format>label</Format>
+    </CELL>
+    <CELL>
+        <Column>B</Column>
+        <Row>3</Row>
+        <Expression>3.14</Expression>
+        <Format>numeric</Format>
+    </CELL>
+    <CELL>
+        <Column>C</Column>
+        <Row>4</Row>
+        <Expression>Circle Area:</Expression>
+        <Format>label</Format>
+    </CELL>
+    <CELL>
+        <Column>D</Column>
+        <Row>4</Row>
+        <Expression>:A3 * :B3 * :B3</Expression>
+        <Format>expression</Format>
+    </CELL>
+</GRID>
