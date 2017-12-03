@@ -14,7 +14,7 @@ CellDialog::CellDialog(QWidget *parent) :
 
     ui->lineEdit->setText("Here comes our expression");
 }
-
+// hello
 void CellDialog::onSubmit()
 {
 
